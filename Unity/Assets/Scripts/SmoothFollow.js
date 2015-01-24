@@ -17,6 +17,5 @@ function Update () {
 
 function LateUpdate()
 {
-   transform.position.y = 1.81;  
-	print(transform.position.x);
+   transform.position.y = 1.81;
 }
