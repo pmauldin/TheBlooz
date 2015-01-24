@@ -1,8 +1,11 @@
+Unity/Temp/
+Test/
+
 # =============== #
 # Unity generated #
 # =============== #
-Temp/
-Library/
+Unity/Temp/
+Unity/Library/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
