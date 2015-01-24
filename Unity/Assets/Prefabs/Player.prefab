@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 477360}
   - 61: {fileID: 6177360}
-  - 114: {fileID: 11477362}
+  - 114: {fileID: 11485126}
   m_Layer: 0
   m_Name: FeetCollider
   m_TagString: Untagged
@@ -64,7 +64,6 @@ GameObject:
   - 124: {fileID: 12477360}
   - 81: {fileID: 8177360}
   - 114: {fileID: 11477366}
-  - 114: {fileID: 11477360}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -165,7 +164,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 2
-  m_FixedAngle: 0
+  m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -179,7 +178,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .460000008, y: .0599999987}
+  m_Size: {x: .430000007, y: .0599999987}
   m_Center: {x: 0, y: 0}
 --- !u!61 &6177362
 BoxCollider2D:
@@ -190,8 +189,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .140000001, y: .239999995}
-  m_Center: {x: 0, y: -.0379999988}
+  m_Size: {x: .140000001, y: .230000004}
+  m_Center: {x: 0, y: -.0350000001}
 --- !u!81 &8177360
 AudioListener:
   m_ObjectHideFlags: 1
@@ -206,29 +205,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177366}
   m_Enabled: 1
---- !u!114 &11477360
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177366}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c007dcf7d3f6d6743ba15a5359608d77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
---- !u!114 &11477362
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7533f9cd11002834eaeb54d20ad8ca27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11477364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,6 +220,8 @@ MonoBehaviour:
   speed: 5
   jumpSpeed: 10
   grounded: 0
+  target: {fileID: 0}
+  direction: 0
 --- !u!114 &11477366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +238,17 @@ MonoBehaviour:
   height: 20
   damping: 15
   xOffset: 5
+--- !u!114 &11485126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7533f9cd11002834eaeb54d20ad8ca27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!124 &12477360
 Behaviour:
   m_ObjectHideFlags: 1
