@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerLogic\Player2D.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerLogic\Player2D.js" Line="44" Column="48" />
-      <File FileName="Assets\Scripts\PlayerLogic\FeetCollision.js" Line="15" Column="3" />
+      <File FileName="Assets\Scripts\PlayerLogic\Player2D.js" Line="42" Column="29" />
+      <File FileName="Assets\Scripts\PlayerLogic\FeetCollision.js" Line="14" Column="21" />
       <File FileName="Assets\Scripts\Camera\SmoothFollow.js" Line="8" Column="44" />
+      <File FileName="Assets\Scripts\GameLogic\Block.js" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\GameLogic\BackgroundLogic.js" Line="6" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
